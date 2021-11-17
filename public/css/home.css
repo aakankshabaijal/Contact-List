@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+	background-color: #020202;
+}
+
+#page-heading {
+	text-align: center;
+	color: orange;
+	margin: 1rem;
+}
+
+.contactDetails {
+	display: flex;
+	width: 50vw;
+	height: 2rem;
+	justify-content: space-between;
+	align-items: center;
+	margin-left: 25vw;
+	background-color: teal;
+	color: white;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+}
+
+hr {
+	margin: 2rem;
+	color: white;
+}
+
+#create-heading {
+	text-align: center;
+	color: orange;
+	margin: 1rem;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	height: auto;
+	margin-left: 25vw;
+	background-color: teal;
+	color: white;
+	margin-bottom: 0.5rem;
+	padding: 0.5rem;
+}
+input {
+	width: 40%;
+	height: 2rem;
+	margin: 0.5rem;
+	border: none;
+	border-bottom: 1px solid white;
+	background-color: transparent;
+	color: white;
+}
+
+form button {
+	margin: 0.5rem;
+	padding: 0.5rem;
+}
+
+.contact-list-element {
+	display: flex;
+}
+
+.delete-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0.5rem;
+}
+
+.delete-button a {
+	color: white;
+}
